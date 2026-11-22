@@ -1,0 +1,34 @@
+TURBO DUO - course de voitures à 2 joueurs (écran partagé) pour Godot 4
+=====================================================================
+
+But : le premier joueur qui termine 3 tours de circuit gagne.
+- Les bandes bleues lumineuses sur la piste donnent un TURBO.
+- Un LOOPING géant (12 m) se trouve juste après un turbo : la voiture
+  fait le tour toute seule, la caméra passe en vue de côté, puis on
+  reprend le volant à la sortie.
+- Un pont de pierre plein de supporters enjambe la piste. Le public crie
+  plus fort quand on approche des tribunes ou du pont, et ça résonne
+  quand on passe dessous. Pensez à monter le son !
+- Les chocs contre les murs (ou l'autre voiture) font perdre de la vitesse.
+
+OUVRIR LE JEU
+1. Dans Godot 4 : "Importer" > choisir le fichier project.godot de ce dossier.
+2. Appuyer sur F5 (ou le bouton Lecture en haut à droite).
+   (La vue 3D de l'éditeur est vide : c'est normal, le circuit est créé au lancement.)
+
+COMMANDES (les deux joueurs sur le même clavier)
+- Joueur 1 (voiture rouge, écran de gauche) : Z Q S D  (W A S D en QWERTY)
+- Joueur 2 (voiture bleue, écran de droite) : flèches du clavier
+  Haut = accélérer, Bas = freiner / marche arrière, Gauche/Droite = tourner
+
+MANETTE XBOX (brancher avant de lancer le jeu)
+- 1re manette = Joueur 1, 2e manette = Joueur 2 (le clavier marche toujours)
+  Avec une seule manette : J1 à la manette, J2 aux flèches.
+- RT ou A : accélérer      LT, B ou X : freiner / marche arrière
+- Stick gauche : tourner   Start : recommencer
+- Stick droit : tourner la caméra autour de la voiture (gauche/droite)
+  et la monter/descendre (haut/bas). Relâché, elle revient derrière la voiture.
+  (La manette vibre sur les chocs et les turbos.)
+
+- R : recommencer la course
+- Échap : quitter

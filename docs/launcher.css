@@ -1,0 +1,30 @@
+.gl-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  display: flex; align-items: center; justify-content: center; padding: 20px;
+  background: radial-gradient(circle at 50% 20%, rgba(44, 33, 71, 0.96), rgba(12, 9, 20, 0.97));
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #f3ecff;
+}
+.gl-card {
+  width: 100%; max-width: 380px; max-height: 100%; overflow: auto;
+  display: flex; flex-direction: column; align-items: stretch; gap: 12px;
+  background: #221a36; border: 2px solid #4b3b78; border-radius: 18px; padding: 22px;
+  text-align: center; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+.gl-icon { width: 72px; height: 72px; align-self: center; border-radius: 16px; }
+.gl-title { margin: 0; font-size: 1.5rem; }
+.gl-text { margin: 0 0 4px; color: #b9addb; }
+.gl-btn {
+  font: inherit; font-size: 1.05rem; font-weight: 600; cursor: pointer;
+  padding: 13px 16px; border-radius: 12px; border: 2px solid #4b3b78;
+  background: #2f2450; color: #f3ecff;
+}
+.gl-btn:hover, .gl-btn:focus-visible { border-color: #ffcf5a; outline: none; }
+.gl-main { background: #ffcf5a; border-color: #ffcf5a; color: #241a07; }
+.gl-main:hover, .gl-main:focus-visible { background: #ffdc84; }
+.gl-steps {
+  text-align: left; background: #1a1429; border-radius: 12px; padding: 10px 14px;
+  color: #e5dcff; font-size: 0.95rem; line-height: 1.45;
+}
+.gl-steps ol { margin: 0; padding-left: 20px; }
+.gl-link { color: #b9addb; font-size: 0.9rem; text-decoration: none; margin-top: 2px; }
+.gl-link:hover { color: #ffcf5a; }
